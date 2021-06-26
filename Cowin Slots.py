@@ -22,7 +22,7 @@ def Checkslot():
             print(each["pincode"])
             print(each["vaccine"])
             print(each["available_capacity"])
-            playsound('C:/Users/e5019291/Downloads/Cowin_Slots_Checker-main/sound.mp3')
+            playsound('D:/ArUn/Internship/Cowin Slots Alert/Cowin-Slots-Alert/sound.mp3')
             return True
     if(counter == 0):
         print("No Available Slots")
